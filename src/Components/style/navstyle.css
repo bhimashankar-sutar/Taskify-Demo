@@ -1,0 +1,32 @@
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid lightgrey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items-left{
+    display: flex;
+
+}
+.item{
+    color: lightslategrey;
+    padding: 10px 20px;
+    margin: 0;
+    align-content: center;
+}
+
+.item-create{
+    color: white;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 15px;
+    font-size: 12px;
+    align-content: center;
+
+}
