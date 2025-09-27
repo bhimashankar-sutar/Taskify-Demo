@@ -12,9 +12,6 @@ function Navbar(){
             </div>
             
         </nav>
-        <div>
-            "Work in progress..."
-        </div>
         </>
         
     )
