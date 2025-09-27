@@ -1,0 +1,105 @@
+configure Git 
+git config --global user.name "Name"
+git config --global user.email "email"
+git config --list - > to get list of all configuration
+
+cd : change directory
+ls : list files in directory
+ls -a : for hidden files
+clear : clear command
+
+basic git command
+1) clone
+ git clone <repo code link>
+
+2) status
+git status - showing status with branch
+
+types of status
+untracked - new file not in git created in editor
+modified - changed in file
+unmodified  - unchanged
+staged - file ready to be committed means it is added but not committed.
+
+Note - when file is modified we need to add and commit the changes 
+
+add .-
+git add <file name> (. means all file)
+
+commit
+git commit -m "some message"
+
+Push
+git push origin main
+
+git init --> used to create new git repo
+
+cd .. ---> used to get out from the current directory
+
+mkdir localRepo--> make directory
+
+git remote-v --> to verify remote
+
+git branch--> to check branch
+
+git branch -M main---> to rename branch
+
+to removes add files from repo---> git rm -r <file-Name> or .
+
+after removing need to commit --> git commit -m "remove comment"
+
+Git branches:
+
+1. git branch: to check branch 
+
+2. git checkout<branch name>: to navigate another branch 
+
+
+3. git checkout -b < new branch name>--> to create new branch
+
+4. git branch -d <branch name>: to delete branch
+
+==========
+Merging code
+
+ way 1
+
+1. git diff<branch name> -> to compare commits, branches, files & more)
+
+2. git merge<branch name> -> to merge 2 branches
+
+way 2
+
+it lets you tell others about changes you'have pushed to a branch in a repo on GitHub
+
+
+create PR--> pull request
+
+==========
+PULL Command
+
+git pull origin main
+
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+===================
+MERGE Conflicts
+when got is unable to automatically resolve the diff 
+
+1. PR:
+
+2. Git merge: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
