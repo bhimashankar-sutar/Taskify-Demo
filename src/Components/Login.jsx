@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Login(){
 
@@ -8,6 +9,7 @@ function Login(){
         emailErr: "",
         passwordErr: "" 
     })
+    const navigate = useNavigate();
 
     const [response,setResponse] = useState("");
 
@@ -61,6 +63,9 @@ function Login(){
             setResponse("");
             localStorage.setItem("jwt-token",res.data);
             localStorage.setItem("loggedInUser",formData.email); 
+            navigate("/project")
+            
+
 
         }).catch(err => {
             setResponse(err.response.data);

@@ -5,10 +5,28 @@ function Navbar(){
         <>
         <nav>
             <div className="nav-items-left">
-                <h4 className="item">Taskify</h4>
-                <h6 className="item">Projects</h6>
-                <h6 className="item">People</h6>
-                <button  className="item-create"type="button">Create</button>
+                <div className="nav-item">
+                    <h4 >Taskify</h4>
+                </div>
+                
+                <div className="nav-item-link">
+                    <h6 >Projects</h6>
+                </div>
+               
+                <div className="nav-item-link">
+                    <h6 >People</h6>
+                </div>
+                
+                <div className="nav-item">
+                     <button  type="button">Create</button>
+                </div>
+               
+            </div>
+            <div className="nav-items-right">
+                <div className="nav-item">
+                    <button>Logout</button>
+                </div>
+                
             </div>
             
         </nav>
